@@ -1,0 +1,3 @@
+[submodule "git_info"]
+	path = git_info
+	url = https://github.com/olegbom/git_info.git
