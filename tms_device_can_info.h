@@ -21,4 +21,4 @@
 
 /* -------------------------- FUNCTIONS PROTOTYPES -------------------------- */
 
-void TmsDeviceWhoAmITransmitAnswer()
+void TmsDeviceWhoAmITransmitAnswer();
