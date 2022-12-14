@@ -21,4 +21,4 @@
 
 /* -------------------------- FUNCTIONS PROTOTYPES -------------------------- */
 
-void TmsDeviceWhoAmITransmitAnswer();
+void TmsDeviceWhoAmITransmitAnswer(txCliFunc func, uint8_t *dstCanData);
