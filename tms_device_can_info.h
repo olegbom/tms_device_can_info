@@ -13,8 +13,8 @@
 
 /* --------------------------------- DEFINES -------------------------------- */
 
-#define TMS_DEVICE_CAN_WHO_AM_I_REQUEST_ID(dev_id)  ( (uint32_t)0x180100F1 || ((uint32_t)(dev_id) << 8) )
-#define TMS_DEVICE_CAN_WHO_AM_I_ANSWER_ID(dev_id)   ( (uint32_t)0x1801F100 || ((uint32_t)(dev_id)     ) )
+#define TMS_DEVICE_CAN_WHO_AM_I_REQUEST_ID(dev_id)  ( (uint32_t)0x180100F1 | ((uint32_t)(dev_id) << 8) )
+#define TMS_DEVICE_CAN_WHO_AM_I_ANSWER_ID(dev_id)   ( (uint32_t)0x1801F100 | ((uint32_t)(dev_id)     ) )
 
 /* -------------------------------- TYPEDEFS -------------------------------- */
 
